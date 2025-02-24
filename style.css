@@ -10,7 +10,9 @@ section{
 #imgvid{
     background-color: aqua;
 }
-
+.section img{
+	max-width: 400px;
+}
 .container {
     width: 1440px;
     margin: 0 auto;
