@@ -8,7 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="connection.js" defer></script>
+    <!-- <script src="https://apis.google.com/js/platform.js" async defer></script> -->
 </head>
 
 <body>
@@ -25,18 +26,18 @@
                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </span>
         </div>
-        <div class="login-form">
+        <div class="login-form-div">
             <h2>Connectez vous ici</h2>
-            <form action="/submit" method="post">
+            <form class="login-form" id="loginForm">
                 <label for="email">Email :</label>
-                <input type="text" name="Email" class="email">
-                <a href="" title="Email lost">Email oublié ?</a>
+                <input type="email" name="Email" id="email" class="email" required autocomplete="off">
+                <a href="#" title="Email lost">Email oublié ?</a>
                 <label for="password">Mot de passe :</label>
-                <input type="Password" name="Password" class="password">
-                <a href="" title="password lost">Mot de passe oublié ?</a>
-                <button type="submit">Connection</button>
-                <button><a href="account-create.html">Créer son compte</a></button>
-                <button><div class="g-signin2" data-onsuccess="onSignIn">Connection avec Google</div></button>
+                <input type="password" name="Password" id="password" class="password" required>
+                <a href="#" title="password lost">Mot de passe oublié ?</a>
+                <input type="submit" value="Se connecter">
+                <button type="button" onclick="window.location.href='account-create.html'">Créer son compte</button>
+                <div class="g-signin2" data-onsuccess="onSignIn"></div>
             </form>
         </div>
     </div>

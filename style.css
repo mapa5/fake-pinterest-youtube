@@ -19,12 +19,12 @@ section{
     margin: 0 auto;
 }
 
-.login-form {
+.login-form-div {
     padding: 50px;
     background-color: green;
 }
 
-.login-form form {
+.login-form {
     display: flex;
     flex-direction: column;
     max-width: 15em;
