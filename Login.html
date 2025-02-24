@@ -13,32 +13,57 @@
 </head>
 
 <body>
-    <header></header>
-    <div class="login-box container">
-        <div class="login-info">
-            <h2>Rejoignez la communauté des maintenant</h2>
-            <span>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </span>
+    <header>
+        <img src="">
+        <form>
+            <input type="text" name="">
+            <span class="material-symbols-rounded">search</span>
+        </form>
+        <span class="material-symbols-rounded">account_circle</span>
+    </header>
+    <div class="main-display">
+        <div>
+            <nav class="navbar">
+                <div class="navbar-brand">MonSite</div>
+                <ul class="navbar-menu">
+                    <li class="navbar-item"><a href="#home" class="navbar-link">Rechercher un theme</a></li>
+                    <li class="navbar-item"><a href="#about" class="navbar-link">Recherche un membre</a></li>
+                    <li class="navbar-item"><a href="#services" class="navbar-link">Recherche par date</a></li>
+                    <li class="navbar-item"><a href="#contact" class="navbar-link">Filtrer par type</a></li>
+                </ul>
+                <div class="navbar-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
         </div>
-        <div class="login-form-div">
-            <h2>Connectez vous ici</h2>
-            <form class="login-form" id="loginForm">
-                <label for="email">Email :</label>
-                <input type="email" name="Email" id="email" class="email" required autocomplete="off">
-                <a href="#" title="Email lost">Email oublié ?</a>
-                <label for="password">Mot de passe :</label>
-                <input type="password" name="Password" id="password" class="password" required>
-                <a href="#" title="password lost">Mot de passe oublié ?</a>
-                <input type="submit" value="Se connecter">
-                <button type="button" onclick="window.location.href='account-create.html'">Créer son compte</button>
-                <div class="g-signin2" data-onsuccess="onSignIn"></div>
-            </form>
+        <div class="login-box container">
+            <div class="login-info">
+                <h2>Rejoignez la communauté des maintenant</h2>
+                <span>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </span>
+            </div>
+            <div class="login-form-div">
+                <h2>Connectez vous ici</h2>
+                <form class="login-form" id="loginForm">
+                    <label for="email">Email :</label>
+                    <input type="email" name="Email" id="email" class="email" required autocomplete="off">
+                    <a href="#" title="Email lost">Email oublié ?</a>
+                    <label for="password">Mot de passe :</label>
+                    <input type="password" name="Password" id="password" class="password" required>
+                    <a href="#" title="password lost">Mot de passe oublié ?</a>
+                    <input type="submit" value="Se connecter">
+                    <button type="button" onclick="window.location.href='account-create.html'">Créer son compte</button>
+                    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                </form>
+            </div>
         </div>
     </div>
 </body>
