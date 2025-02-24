@@ -4,10 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Connectez vous</title>
+    <title>Se connecter a son compte</title>
     <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
 </head>
 
 <body>
@@ -25,7 +26,7 @@
             </span>
         </div>
         <div class="login-form">
-            <h2>Connectez vous </h2>
+            <h2>Connectez vous ici</h2>
             <form action="/submit" method="post">
                 <label for="email">Email :</label>
                 <input type="text" name="Email" class="email">
@@ -34,6 +35,12 @@
                 <input type="Password" name="Password" class="password">
                 <a href="" title="password lost">Mot de passe oublié ?</a>
                 <button type="submit">Connection</button>
+                <button>
+                    <a href="account-create.html">Créer son compte</a>
+                </button>
+                <button>
+                    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                </button>
             </form>
         </div>
     </div>

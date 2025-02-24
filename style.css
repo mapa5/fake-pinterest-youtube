@@ -4,7 +4,7 @@
 }
 
 .login-form {
-    margin: 15px;
+    padding: 50px;
     background-color: green;
 }
 
@@ -18,8 +18,10 @@
 .login-box{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	gap: 75px;
 }
 
 .login-info{
 	background-color: red;
+	padding: 50px;
 }
