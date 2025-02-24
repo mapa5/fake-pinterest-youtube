@@ -1,3 +1,16 @@
+section{
+    background-color: bisque;
+}
+#header{
+    background-color: blueviolet;
+}
+#continer{
+    background-color: blue;
+}
+#imgvid{
+    background-color: aqua;
+}
+
 .container {
     width: 1440px;
     margin: 0 auto;
