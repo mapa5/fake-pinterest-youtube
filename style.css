@@ -2,9 +2,24 @@
     width: 1440px;
     margin: 0 auto;
 }
-.connection-form{
-	display: flex;
-	flex-direction: column;
-	margin: 15px;
-	background-color: green;
+
+.login-form {
+    margin: 15px;
+    background-color: green;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 15em;
+
+}
+
+.login-box{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.login-info{
+	background-color: red;
 }
