@@ -24,7 +24,7 @@ fetch('https://gist.githubusercontent.com/poudyalanil/ca84582cbeb4fc123a13290a58
                 <h3>
                 </h3>
                  <img src="" id="miniature">
-                <a href="" title="">
+                 <a href="" title="">
             </div>
             <div></div>
             <span class="material-symbols-outlined">arrow_forward</span>
