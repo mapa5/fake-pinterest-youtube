@@ -1,0 +1,10 @@
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+.connection-form{
+	display: flex;
+	flex-direction: column;
+	margin: 15px;
+	background-color: green;
+}

@@ -12,13 +12,21 @@
 
 <body>
     <header></header>
-    <div>
-    </div>
-    <div>
-        <h2></h2>
-        <form>
-            <input type="text" name="Identifan">
-        </form>
+    <div class="container">
+        <div>
+        </div>
+        <div class="connection-form">
+            <h2>Connectez vous </h2>
+            <form action="/submit" method="post">
+                <label for="email">Email :</label>
+                <input type="text" name="Email" class="email">
+                <a href="" title="Email lost">Email oublié ?</a>
+                <label for="password">Mot de passe :</label>
+                <input type="Password" name="Password" class="password">
+                <a href="" title="password lost">Mot de passe oublié ?</a>
+                <button type="submit">Connection</button>
+            </form>
+        </div>
     </div>
 </body>
 
