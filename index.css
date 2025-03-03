@@ -1,0 +1,87 @@
+body{
+    display: flex;
+ margin: 0%;
+ padding: 0%;
+ background-color: rgba(14, 14, 15, 0.91);
+}
+#Choisir{
+    background-color: black;
+    width: 200px;
+    height: 100em;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#logo{
+    width: 100px;
+    padding-left:10px ;
+    margin-top: 10%;
+}
+ul{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 10px;
+    margin-bottom: 20%;
+
+}
+li{
+    background-color: azure;
+    width:100%;
+    margin-left:0px;
+    padding: 0;
+    height: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+input{
+ width: 90%;
+ height: 42px;
+ border-radius: 20px;
+ padding-left: 10%;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ background-color: rgba(36, 34, 38, 0.76);
+ border: 0;
+}
+main{
+    width: 90%;
+}
+.search-container{
+    position: relative;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.search-icon{
+    position: absolute;
+    left: 280px;
+    top:20px;
+    color: gray;
+   
+}
+#search{
+    width: 50%;
+    margin-left: 40%;
+}
+#profil{
+    margin-top: 9px;
+    margin-left: 5px;
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color:rgba(53, 53, 132, 1);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+   
+}
